@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/basicfe-lab7/static/css/main.728ce6da.css",
+    "main.js": "/basicfe-lab7/static/js/main.99f7da4b.js",
+    "static/media/kyiv.jpg": "/basicfe-lab7/static/media/kyiv.abf1ca3a2f7d507e131b.jpg",
+    "index.html": "/basicfe-lab7/index.html",
+    "main.728ce6da.css.map": "/basicfe-lab7/static/css/main.728ce6da.css.map",
+    "main.99f7da4b.js.map": "/basicfe-lab7/static/js/main.99f7da4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.728ce6da.css",
+    "static/js/main.99f7da4b.js"
+  ]
+}
