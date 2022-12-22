@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  margin: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button{
+  background-color:#4e28d6; 
+  border:2px solid #5300bf;
+  color: white;
+  margin-top: 25px;
+  }
+  button:hover{
+  cursor: pointer;
+  background-color:#ffe95d;
+  }
+  button:active{
+  background-color:#ffe100;
+  color: white;
+  }
+  
+  img{
+  height: 400px;
+  width: 550px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    color:white;
+}
+.card .card-desc {
+    box-shadow: 2px 2px 5px 0px rgb(74, 39, 176);
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(68, 18, 133);
+    transition: transform ease-in-out 150ms;
+    border-radius: 15px;
+}
+.card .card-desc:hover {
+    transform: scale(1.05);
+}
+.card-desc{
+    text-align: center;
+}
+.card-img{
+    width: 190px;
+    height: 250px;
+}
